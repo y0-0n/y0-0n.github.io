@@ -2,6 +2,7 @@ const metaConfig = require('./gatsby-meta-config')
 
 module.exports = {
   siteMetadata: metaConfig,
+  pathPrefix: '/robotics',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

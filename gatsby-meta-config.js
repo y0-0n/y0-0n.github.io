@@ -1,5 +1,5 @@
 module.exports = {
-  title: `R0b0t`,
+  title: `Yoon0_0`,
   description: `Posting about Robotics`,
   author: `yoonbyung`,
   introduction: `Robotics, AI, Application, Mathematics`,
@@ -16,7 +16,7 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'L5vD5/robotics', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post

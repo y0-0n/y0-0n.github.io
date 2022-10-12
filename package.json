@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-bee",
+  "name": "Robotics",
   "private": true,
-  "description": "Gatsby blog starter template",
+  "description": "Robotics blog",
   "version": "0.1.0",
-  "author": "Jbee[JaeYeopHan]<ljyhanll@gmail.com>",
+  "author": "Yoon0_0<yoonbyung-chai@korea.ac.kr>",
   "bugs": {
     "url": "https://github.com/JaeYeopHan/gatsby-starter-bee/issues"
   },
@@ -85,6 +85,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths & gh-pages -d public -b deploy",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }
