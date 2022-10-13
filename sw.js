@@ -38,14 +38,14 @@ self.__precacheManifest = [
     "url": "framework-727eca7a674e10b21a9f.js"
   },
   {
-    "url": "app-2349bdeed40bde20979d.js"
+    "url": "app-489f2749643062c50898.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-38fe08ef875e5952d5f0.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d1b851e2cf41681b2d69275167e07814"
+    "revision": "52c1addf07db64a56cf89c4862be3f89"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -53,7 +53,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "cc9e685c03316c30589f2d33a092db51"
+    "revision": "a15f14d196b6ac822f8e0b4e345c12c7"
   },
   {
     "url": "manifest.webmanifest",
@@ -81,7 +81,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/robotics/app-2349bdeed40bde20979d.js`))) {
+  if (!resources || !(await caches.match(`/robotics/app-489f2749643062c50898.js`))) {
     return await fetch(event.request)
   }
 
