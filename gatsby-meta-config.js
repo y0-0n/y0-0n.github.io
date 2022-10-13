@@ -3,7 +3,7 @@ module.exports = {
   description: `Posting about Robotics`,
   author: `yoonbyung`,
   introduction: `Robotics, AI, Application, Mathematics`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  siteUrl: `https://l5vd5.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: ``, // Your GitHub account
@@ -22,7 +22,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: 'yoon0_0',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
