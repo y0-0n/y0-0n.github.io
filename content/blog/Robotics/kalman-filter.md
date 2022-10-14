@@ -1,7 +1,7 @@
 ---
 title: Kalman Filter
 date: 2022-10-12 15:10:25
-category: Robotics
+category: robotics
 thumbnail: { thumbnailSrc }
 draft: false
 ---
