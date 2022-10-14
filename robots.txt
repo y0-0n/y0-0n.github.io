@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://l5vd5.github.io/robotics/sitemap.xml
+Sitemap: https://l5vd5.github.io/sitemap.xml
 Host: https://l5vd5.github.io
