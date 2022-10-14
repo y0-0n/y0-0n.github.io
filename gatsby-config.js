@@ -2,7 +2,7 @@ const metaConfig = require('./gatsby-meta-config')
 
 module.exports = {
   siteMetadata: metaConfig,
-  pathPrefix: '/robotics',
+  // pathPrefix: '/robotics',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -97,8 +97,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://l5vd5.github.io/robotics',
-        sitemap: 'https://l5vd5.github.io/robotics/sitemap.xml',
+        host: 'https://l5vd5.github.io',
+        sitemap: 'https://l5vd5.github.io/sitemap.xml',
         policy: [
           {
             userAgent: '*',
