@@ -4,7 +4,7 @@ import './index.scss'
 
 export const Footer = () => (
   <footer className="footer">
-    ©<a href="https://github.com/l5vd5">Jbee</a>, Built with{' '}
-    <a href="https://github.com/l5vd5">Gatsby-starter-bee</a>
+    ©<a href="https://github.com/yoon0-0">yoon0-0</a>, Built with{' '}
+    <a href="https://github.com/yoon0-0">yoon0-0</a>
   </footer>
 )

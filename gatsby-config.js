@@ -97,8 +97,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://l5vd5.github.io',
-        sitemap: 'https://l5vd5.github.io/sitemap.xml',
+        host: 'https://yoon0-0.github.io',
+        sitemap: 'https://yoon0-0.github.io/sitemap.xml',
         policy: [
           {
             userAgent: '*',
